@@ -33,7 +33,7 @@ zokou(
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `*speed of 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃 is.999999999..🤠*
+      text: `*speed of ɪᴛ ᴋᴀɴᴊᴜ ᴘɪɴɢ ᴘᴏɴɢ sᴘᴇᴇᴅ. is.999999999..🤠*
  *${ping} ms*`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
