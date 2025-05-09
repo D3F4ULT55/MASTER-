@@ -46,7 +46,7 @@ zokou({
         document: { url: appDetails.BK9.dllink },
         fileName: `${appDetails.BK9.name}.apk`,
         mimetype: "application/vnd.android.package-archive",
-        caption: "𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃"
+        caption: "𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃"
       },
       { quoted: ms }
     );
