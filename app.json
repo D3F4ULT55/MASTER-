@@ -1,14 +1,14 @@
 {
-  "name": "𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃 𝐁𝐎𝐓",
-  "description": "𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
+  "name": "𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 𝐁𝐎𝐓",
+  "description": "𝚰𝚻 𝐊𝚫𝚴𝐉 is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/vnmzkg.jpg",
-  "repository": "https://github.com/next55x/DILI_KANO_-",
+  "logo": "https://files.catbox.moe/d5s4n1.jpg",
+  "repository": "https://github.com/Next5x/IT_KANJU_TMD",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -49,7 +49,7 @@
     },
     "AUTO_STATUS_MSG": {
       "description": "type your genuine status message",
-      "value": "viewed ✅✅𝐃𝚰𝐋 𝐊𝚫𝚴𝚯",
+      "value": "viewed",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -59,12 +59,12 @@
     },
     "ANTICALL_MSG": {
       "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
-      "value": "timnasa_Md is busy",
+      "value": "it timnasa_Md is busy",
       "required": false
     },
     "BOT_NAME": {
       "description": "Change this if you don't like my name",
-      "value": "𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃",
+      "value": "𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃",
       "required": true 
     },
     "GROUP_CONTROL": {
@@ -94,12 +94,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃",
+      "value": "𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃",
       "required": true
     },
     "URL": {
       "description": "Change this image and input yours",
-      "value": "https://files.catbox.moe/vnmzkg.jpg",
+      "value": "https://files.catbox.moe/d5s4n1.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -109,7 +109,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255693629079')",
-      "value": "255699155695",
+      "value": "255697423061",
       "required": false
     },
     "WARN_COUNT": {
