@@ -21,7 +21,7 @@ zokou({
                  `• *Name:* ${s.OWNER_NAME}\n` +
                  `• *Date:* ${date}\n` +
                  `• *Time:* ${temps}\n\n` +
-                 `> *Powered by Rahmani Md*`;
+                 `> *Powered by IT KANJU*`;
 
   try {
     const mediaUrl = await mybotpic();
@@ -35,12 +35,12 @@ zokou({
           gifPlayback: true,
           contextInfo: {
             externalAdReply: {
-              title: `𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 Deployer`,
+              title: `𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 2,
-              mediaUrl: "https://files.catbox.moe/vnmzkg.jpg",
-              sourceUrl: "https://whatsapp.com/channel/0029Vb5vW8yLikgAkyNxnY1H"
+              mediaUrl: "https://files.catbox.moe/d5s4n1.jpg",
+              sourceUrl: "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31"
             }
           }
         }, { quoted: ms });
