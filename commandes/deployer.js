@@ -21,7 +21,7 @@ zokou({
                  `• *Name:* ${s.OWNER_NAME}\n` +
                  `• *Date:* ${date}\n` +
                  `• *Time:* ${temps}\n\n` +
-                 `> *Powered by IT KANJU*`;
+                 `> *Powered by IT KAJU*`;
 
   try {
     const mediaUrl = await mybotpic();
@@ -35,7 +35,7 @@ zokou({
           gifPlayback: true,
           contextInfo: {
             externalAdReply: {
-              title: `𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 Deployer`,
+              title: `𝚰𝚻 𝐊𝚫𝐉𝐔 𝚻𝚳𝐃 Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 2,
@@ -51,7 +51,7 @@ zokou({
           caption: infoMsg,
           contextInfo: {
             externalAdReply: {
-              title: `𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 Deployer`,
+              title: `𝚰𝚻 𝐊𝚫𝐉𝐔 𝚻𝚳𝐃 Deployer`,
               body: "Premium WhatsApp Bot",
               thumbnailUrl: mediaUrl,
               mediaType: 1,
