@@ -34,27 +34,27 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-          *𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃 BOT INFO* 
+          *𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 BOT INFO* 
 ❒───────────────────❒
 
 *GITHUB LINK*
-> https://github.com/next55x/DILI_KANO_-
+> https://github.com/Next5x/IT_KANJU_TMD
 
 *CONTACT OWNER*
-> https://wa.me/255699155695
+> https://wa.me/255697423061
 
 *WHATSAPP CHANNEL*
 >https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31
 ⁠
 ╭───────────────────❒
  │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
- │❒⁠⁠⁠⁠ *DEV1* : *𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃*
+ │❒⁠⁠⁠⁠ *DEV1* : *𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃*
  │❒⁠⁠⁠⁠ *DEV2* : *𝚻𝚰𝚳𝚴𝚫𝐒𝚫 𝚻𝚳𝐃*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-         *POWERED BY 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃*
+         *POWERED BY 𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃*
 
 ❒───────────────────❒`;
 
