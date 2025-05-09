@@ -42,20 +42,20 @@ Hello ${nomAuteurMessage},,
 ✔From there you are required to get your *Session id* but how,??..
          𝐇𝐎𝐖 𝐓𝐎 𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃
 ✞ Open this link 👉 https://timnasa-session-id-9as4.onrender.com/   then tap on pair code.
-✞ Enter your whatsapp number with the country code e.g;  255699155695 then tap submit 
-✞Rahmani-md owner , *Rahmani* ,will send you the code immediately.Copy the code and whatsapp will bring a notification 
-✞Tap on the notification and paste the code that 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 owner sent you.
-✞ After a successful login Rahmani-md owner 🤔 Rahmani will send you a *session id* .some will wonder where the hell is that session ,,,...It is just right at your inbox /dm {your own number for whatsappp} 😂
+✞ Enter your whatsapp number with the country code e.g;  +255****** then tap submit 
+✞Rahmani-md owner , *𝚰𝚻 𝐊𝚫𝐉𝐔* ,will send you the code immediately.Copy the code and whatsapp will bring a notification 
+✞Tap on the notification and paste the code that 𝚰𝚻 𝐊𝚫𝐉𝐔 owner sent you.
+✞ After a successful login Rahmani-md owner 🤔 𝚰𝚻 𝐊𝚫𝐉𝐔 will send you a *session id* .some will wonder where the hell is that session ,,,...It is just right at your inbox /dm {your own number for whatsappp} 😂
 ✞Copy the Session id {the one with unreadable codes and long copy it and send it to your deployer or deploy
-     𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃
-✔ Now check on 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 repository in github fork and give a star to this repository before doing anything 🌟or else Rahmani-md owner won't allow you to deploy his bot🤖.
+     𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝚰𝚻 𝐊𝚫𝐉𝐔 𝚻𝚳𝐃
+✔ Now check on 𝚰𝚻 𝐊𝚫𝐉𝐔 repository in github fork and give a star to this repository before doing anything 🌟or else Rahmani-md owner won't allow you to deploy his bot🤖.
 ✔Tap on heroku deploy tab  given there. First thing you should do is getting your *Heroku Api Key* insert it to the required space .
 ✔Enter the valid *heroku app name* and again repeat it to the blank space asking for app name accordingly.Fill everything and press on the below tab Deploy
 ✔In some heroku apps the buld logs might not show but it will eventually deploy 
-✔Now click on this devs number and give 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 owner credits https://wa.me/255699155695
+✔Now click on this devs number and give 𝚰𝚻 𝐊𝚫𝐉𝐔 owner credits https://wa.me/255******
 ╰────────────────────☆`;
 let menuMsg = `
-     𝐑𝐞𝐠𝐚𝐫𝐝𝐬 dev 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯`;
+     𝐑𝐞𝐠𝐚𝐫𝐝𝐬 dev 𝚰𝚻 𝐊𝚫𝐉𝐔`;
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
