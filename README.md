@@ -25,11 +25,12 @@
 <a href="https://wa.me/+255699155695-INFO"><img title="CONTACT-Elon" src="https://img.shields.io/badge/CONTACT-𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃?color=black&style=for-the-badge&logo=audi" width="240" height="45.45"/></a></p>
 
 
-Ent☠️☠️☠️☠️☠️💀💀💀💀💀💀☠️☠️☠️☠️💀☠️💀☠️💀☠️💀☠️💀☠️💀💀💀💀☠️☠️
+☠️☠️☠️☠️☠️💀💀💀💀💀💀☠️☠️☠️☠️💀
 Danger repo by tanzania developers 
 Dont try to fork auto crach github account wen you fork this repo
 keep safe your account 
-☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️💀💀💀💀💀💀💀💀💀
-𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃 𝐃𝚰𝐋 𝐊𝚫𝚴𝚯 𝚻𝚳𝐃
- ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/next55x/DILI_KANO_-&template=https://github.com/next55x/DILI_KANO_-.git)***
+☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️
+𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃
+𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃
+ ***[![Tap to deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Next5x/IT_KANJU_TMD&template=https://github.com/Next5x/IT_KANJU_TMD.git)***
 er
