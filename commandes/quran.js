@@ -46,7 +46,7 @@ zokou({
     
     const data = response.data.data;
     const messageText = `
-ᬑ *𝚻𝚰𝚳𝚴𝚫𝐒𝚫 𝚻𝚳𝐃 QURAN SURAH* ᬒ
+ᬑ *𝚰𝚻 𝐊𝚫𝐉𝐔 QURAN SURAH* ᬒ
 
 *🕌 Quran: The Holy Book*
 📜 *Surah:* 🕌❤️${data.number}: ${data.asma.ar.long} (${data.asma.en.long})❤️🕌
@@ -62,7 +62,7 @@ zokou({
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "𝚻𝚰𝚳𝚴𝚫𝐒𝚫 𝚻𝚳𝐃 QURAN SURAH",
+          title: "𝚰𝚻 𝐊𝚫𝐉𝐔 QURAN SURAH",
           body: `We're reading: ${data.asma.en.long}`,
           mediaType: 1,
           thumbnailUrl: conf.URL, 
@@ -79,7 +79,7 @@ zokou({
         externalAdReply: {
           title: "Error Fetching Quran Passage",
           body: "Please try again later.",
-          thumbnailUrl: "https://files.catbox.moe/vnmzkg.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/d5s4n1.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
