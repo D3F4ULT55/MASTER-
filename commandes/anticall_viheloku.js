@@ -65,7 +65,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr Rahmani хmd σwnєr");
+    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ  σwnєr");
   }
 
   // Validate user input and respond accordingly
@@ -106,7 +106,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr Rahmani хmd σwnє");
+    return repondre("thís cσmmαnd ís rєstríctєd tσ thє вσt σwnєr. σr ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ σwnє");
   }
 
   // Validate user input and respond accordingly
@@ -146,7 +146,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -187,7 +187,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -228,7 +228,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -269,7 +269,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -310,7 +310,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -350,7 +350,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -390,7 +390,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -431,7 +431,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -472,7 +472,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -513,7 +513,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -554,7 +554,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -636,7 +636,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -676,7 +676,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -716,7 +716,7 @@ zokou({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Rahmani-Md owner.* 💀,,idiot");
+    return repondre("*This command is restricted to the bot owner or ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ owner.* 💀,,idiot");
   }
 
   // Validate user input and respond accordingly
@@ -774,7 +774,7 @@ zokou({
     { nom: "CHAT_BOT", choix: ['on', 'off'] }
   ];
 
-  let settingsMenu = "╭──────༺♡༻──────╮\n  Rahmani-Md\n╰──────༺♡༻──────╯\n\n";
+  let settingsMenu = "╭──────༺♡༻──────╮\n  ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ\nɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ༺♡༻──────╯\n\n";
   settingsOptions.forEach((option, index) => {
     settingsMenu += `${index + 1}- *${option.nom}*\n`;
   });
@@ -794,7 +794,7 @@ zokou({
   });
 
   const selectedOption = settingsOptions[userChoice.message.extendedTextMessage.text - 1];
-  let settingsDetail = `╭──────༺♡༻──────╮\n  Rahmani хmd\n╰──────༺♡༻──────╯\n\n`;
+  let settingsDetail = `╭──────༺♡༻──────╮\n  ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ\n╰──────༺♡༻──────╯\n\n`;
   settingsDetail += `*Variable Name* : ${selectedOption.nom}\n`;
   settingsDetail += `*Description* : ${getDescriptionFromEnv(selectedOption.nom)}\n\n`;
   settingsDetail += "┌────── ⋆⋅☆⋅⋆ ──────┐\n\n";
