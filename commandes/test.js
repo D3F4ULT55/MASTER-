@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 zokou({ nomCom: "test", reaction: "📎", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = 'Hello my name is  *𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃* \n\n ' + "i'm a whatsapp bot multi-device created ";
-    let d = ' by *𝚰𝚻 𝐊𝚫𝚴𝐉𝐔*';
+    let z = 'Hello my name is  *𝚰𝚻 𝐊𝚫𝐉𝐔 𝚻𝚳𝐃* \n\n ' + "i'm a whatsapp bot multi-device created ";
+    let d = ' by *𝚰𝚻 𝐊𝚫𝐉𝐔*';
     let varmess = z + d;
     var img = 'https://files.catbox.moe/d5s4n1.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
