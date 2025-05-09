@@ -26,14 +26,14 @@ zokou(
     } = commandOptions;
     const start = new Date().getTime();
     const msg = await zk.sendMessage(dest, {
-      text: '*𝐃𝚰𝐋 𝐊𝚫𝚴𝚯.✍︎*',
+      text: '*𝚰𝚻 ping pong.✍︎*',
     }, {
       quoted: ms
     });
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `*speed of ɪᴛ ᴋᴀɴᴊᴜ ᴘɪɴɢ ᴘᴏɴɢ sᴘᴇᴇᴅ. is.999999999..🤠*
+      text: `*speed of 𝚰𝚻 𝐊𝚫𝐉𝐔 𝐒𝚸𝚵𝚵𝐃 𝚰𝐒 . is.999999999..🤠*
  *${ping} ms*`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
