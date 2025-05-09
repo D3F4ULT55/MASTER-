@@ -34,11 +34,11 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-          *𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 BOT INFO* 
+          *𝚰𝚻 𝐊𝚫𝐉𝐔 𝚻𝚳𝐃 BOT INFO* 
 ❒───────────────────❒
 
 *GITHUB LINK*
-> https://github.com/Next5x/IT_KANJU_TMD
+> https://github.com/Next5x/IT_KAJU_TMD
 
 *CONTACT OWNER*
 > https://wa.me/255697423061
@@ -48,13 +48,13 @@ const date = moment().format('DD/MM/YYYY');
 ⁠
 ╭───────────────────❒
  │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
- │❒⁠⁠⁠⁠ *DEV1* : *𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃*
+ │❒⁠⁠⁠⁠ *DEV1* : *𝚰𝚻 𝐊𝚫𝐉𝐔 𝚻𝚳𝐃*
  │❒⁠⁠⁠⁠ *DEV2* : *𝚻𝚰𝚳𝚴𝚫𝐒𝚫 𝚻𝚳𝐃*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-         *POWERED BY 𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃*
+         *POWERED BY 𝚰𝚻 𝐊𝚫𝐉𝐔 𝚻𝚳𝐃*
 
 ❒───────────────────❒`;
 
