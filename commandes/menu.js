@@ -1,1 +1,68 @@
-const _0x4a8ca3=_0x5edd;(function(_0x34cdd6,_0x2c33ef){const _0x37edf5=_0x5edd,_0x52f2cf=_0x34cdd6();while(!![]){try{const _0x10ed27=parseInt(_0x37edf5(0x1d6))/0x1*(-parseInt(_0x37edf5(0x1de))/0x2)+-parseInt(_0x37edf5(0x1dd))/0x3*(parseInt(_0x37edf5(0x1bf))/0x4)+parseInt(_0x37edf5(0x1c6))/0x5+parseInt(_0x37edf5(0x1d1))/0x6+parseInt(_0x37edf5(0x1c3))/0x7*(parseInt(_0x37edf5(0x1b3))/0x8)+parseInt(_0x37edf5(0x1e6))/0x9*(parseInt(_0x37edf5(0x1be))/0xa)+parseInt(_0x37edf5(0x1b6))/0xb*(-parseInt(_0x37edf5(0x1d0))/0xc);if(_0x10ed27===_0x2c33ef)break;else _0x52f2cf['push'](_0x52f2cf['shift']());}catch(_0x4b4947){_0x52f2cf['push'](_0x52f2cf['shift']());}}}(_0x22c2,0xeaf8c));const util=require('util'),fs=require(_0x4a8ca3(0x1ca)),{zokou}=require(__dirname+_0x4a8ca3(0x1e2)),{format}=require(__dirname+_0x4a8ca3(0x1cf)),os=require('os'),moment=require(_0x4a8ca3(0x1ba)),s=require(__dirname+_0x4a8ca3(0x1c8)),more=String[_0x4a8ca3(0x1bb)](0x200e),readmore=more[_0x4a8ca3(0x1c0)](0xfa1);function _0x5edd(_0x5bddb0,_0x4a31e6){const _0x22c227=_0x22c2();return _0x5edd=function(_0x5edd9c,_0xde4249){_0x5edd9c=_0x5edd9c-0x1b3;let _0x51ea24=_0x22c227[_0x5edd9c];return _0x51ea24;},_0x5edd(_0x5bddb0,_0x4a31e6);}zokou({'nomCom':_0x4a8ca3(0x1c7),'categorie':_0x4a8ca3(0x1d4)},async(_0x12c17b,_0x1b3bb5,_0x2298c)=>{const _0xf535e0=_0x4a8ca3;let {ms:_0x1dcce0,repondre:_0xa4f0e1,prefixe:_0x48e6fe,nomAuteurMessage:_0x39e751,mybotpic:_0x10bfe1}=_0x2298c,{cm:_0x2f31c3}=require(__dirname+_0xf535e0(0x1b7));var _0x3ca7bf={},_0xbc43ec=_0xf535e0(0x1cb);s[_0xf535e0(0x1bd)][_0xf535e0(0x1bc)]()!=_0xf535e0(0x1b4)&&(_0xbc43ec=_0xf535e0(0x1c5));_0x2f31c3[_0xf535e0(0x1e4)](async(_0x503814,_0x96c611)=>{const _0x3bdb68=_0xf535e0;if(!_0x3ca7bf[_0x503814[_0x3bdb68(0x1ce)]])_0x3ca7bf[_0x503814['categorie']]=[];_0x3ca7bf[_0x503814[_0x3bdb68(0x1ce)]][_0x3bdb68(0x1e5)](_0x503814[_0x3bdb68(0x1d3)]);}),moment['tz'][_0xf535e0(0x1d9)](_0xf535e0(0x1c1));const _0x57d1e1=moment()[_0xf535e0(0x1df)](_0xf535e0(0x1d8)),_0x362cae=moment()[_0xf535e0(0x1df)](_0xf535e0(0x1e0));let _0x461e32=_0xf535e0(0x1d7)+s[_0xf535e0(0x1e3)]+'\x0a\x0a┊🤖┊\x20*Mode*\x20:\x20'+_0xbc43ec+_0xf535e0(0x1b5)+_0x57d1e1+'\x20\x20\x0a\x0a┊🤖┊\x20*Ram*\x20:\x20'+format(os[_0xf535e0(0x1dc)]()-os[_0xf535e0(0x1e1)]())+'/'+format(os[_0xf535e0(0x1dc)]())+'\x0a\x0a┊🤖╰───────────────🚀\x0a\x0a╰──────────────────🚀\x20\x0a\x0a',_0x312581=_0xf535e0(0x1cc);for(const _0x3a06be in _0x3ca7bf){_0x312581+=_0xf535e0(0x1d5)+_0x3a06be+_0xf535e0(0x1d2);for(const _0x2d728d of _0x3ca7bf[_0x3a06be]){_0x312581+=_0xf535e0(0x1c4)+_0x2d728d;}_0x312581+='\x0a\x0a*╰═════════════🚀*\x20\x0a';}_0x312581+=_0xf535e0(0x1b8);var _0x21aee6=_0x10bfe1();if(_0x21aee6[_0xf535e0(0x1c2)](/\.(mp4|gif)$/i))try{_0x1b3bb5[_0xf535e0(0x1da)](_0x12c17b,{'video':{'url':_0x21aee6},'caption':_0x461e32+_0x312581,'footer':_0xf535e0(0x1db),'gifPlayback':!![]},{'quoted':_0x1dcce0});}catch(_0x52b576){console[_0xf535e0(0x1b9)]('🚘🚘\x20Menu\x20erreur\x20'+_0x52b576),_0xa4f0e1('🚘🚘\x20Menu\x20erreur\x20'+_0x52b576);}else{if(_0x21aee6['match'](/\.(jpeg|png|jpg)$/i))try{_0x1b3bb5[_0xf535e0(0x1da)](_0x12c17b,{'image':{'url':_0x21aee6},'caption':_0x461e32+_0x312581,'footer':_0xf535e0(0x1cd)},{'quoted':_0x1dcce0});}catch(_0x1b7e07){console['log'](_0xf535e0(0x1c9)+_0x1b7e07),_0xa4f0e1(_0xf535e0(0x1c9)+_0x1b7e07);}else _0xa4f0e1(_0x461e32+_0x312581);}});function _0x22c2(){const _0x54c9c3=['fromCharCode','toLocaleLowerCase','MODE','20llYlME','12pUrKKx','repeat','EAT','match','28cbsSjw','\x20\x20\x0a\x0a*┊🌟┊*\x20','private','4985725InaXdu','list','/../set','🚘🚘\x20Menu\x20erreur\x20','fs-extra','public','\x20\x20\x0a\x0a\x20\x20*𝚰𝚻\x20𝐊𝚫𝐉𝐔\x20𝚻𝚳𝐃\x20COMMANDS*\x0a\x0a','*Ibrahim-tech*','categorie','/../framework/mesfonctions','298308NSLuYR','4598922zMyZwd','*\x20*🇹🇿*','nomCom','General','*╭────🤖*\x20*','61zbISjZ','\x0a\x0a╭──────────────────🚀\x0a\x0a┊🤖╭───\x20*𝚰𝚻\x20𝐊𝚫𝐉𝐔\x20𝚻𝚳𝐃*\x20────🚀\x0a\x0a┊🤖┊\x20*User*\x20:\x20','HH:mm:ss','setDefault','sendMessage','Je\x20suis\x20*Zokou-MD*,\x20développé\x20par\x20Djalega++','totalmem','161295ocKTwH','4372ATbPfZ','format','DD/MM/YYYY','freemem','/../framework/zokou','OWNER_NAME','map','push','6129414ydjZRs','1085368vrFkrX','yes','\x0a\x0a┊🤖╰───────────────🚀\x0a\x0a┊🤖┊\x20*Time*\x20:\x20','1067YTNMCb','/../framework//zokou','\x0a\x0a◇\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20◇\x0a\x0a*—————🌟🌟🌟—————*\x0a\x0a\x20\x20\x20*POWERED\x20BY\x20𝚰𝚻\x20𝐊𝚫𝐉𝐔*\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x0a\x0a*╰═════════════🚀*\x0a\x0a','log','moment-timezone'];_0x22c2=function(){return _0x54c9c3;};return _0x22c2();}
+const {
+  zokou
+} = require(__dirname + "/../framework/zokou");
+const {
+  format
+} = require(__dirname + "/../framework/mesfonctions");
+const os = require('os');
+const moment = require("moment-timezone");
+const s = require(__dirname + "/../set");
+zokou({
+  'nomCom': "menu",
+  'categorie': "Menu"
+}, async (_0x2a9aec, _0x2391f4, _0x2ce588) => {
+  let {
+    ms: _0x183086,
+    repondre: _0x1542ab,
+    prefixe: _0x2f787f,
+    nomAuteurMessage: _0x69ddd7,
+    mybotpic: _0x2f0327
+  } = _0x2ce588;
+  let {
+    cm: _0x3208f2
+  } = require(__dirname + "/../framework/zokou");
+  let _0x4bac15 = {};
+  let _0x5c8a5f = "public";
+  if (s.MODE.toLowerCase() !== "yes") {
+    _0x5c8a5f = "private";
+  }
+  _0x3208f2.map(_0x4f5f2e => {
+    if (!_0x4bac15[_0x4f5f2e.categorie]) {
+      _0x4bac15[_0x4f5f2e.categorie] = [];
+    }
+    _0x4bac15[_0x4f5f2e.categorie].push(_0x4f5f2e.nomCom);
+  });
+  moment.tz.setDefault("Etc/GMT");
+  const _0x3d97c7 = moment().format("HH:mm:ss");
+  const _0x5d6733 = moment().format("DD/MM/YYYY");
+  let _0x263c02 = "\n *Hello👋* : " + s.OWNER_NAME + "\n \n╭┈┈┈✧ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ✧┈┈┈┈⊷𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭\n┣◆ ╭┈┈┈┈┈┈┈┈┈┈┈⊷\n┣◆◎ 𝙾𝚠𝚗𝚎𝚛 : " + s.OWNER_NAME + "\n┣◆◎ 𝙿𝚛𝚎𝚏𝚒𝚡 : *[ " + s.PREFIXE + " ]*\n┣◆◎ 𝙼𝚘𝚍𝚎 : " + _0x5c8a5f + "\n┣◆◎ 𝚝𝚒𝚖𝚎 : " + _0x3d97c7 + "\n┣◆◎ 𝙳𝚊𝚝𝚎 : " + _0x5d6733 + "\n┣◆◎ 𝙿𝚕𝚊𝚝𝚏𝚘𝚛𝚖 : " + os.platform() + "\n┣◆◎ 𝙲𝚛𝚎𝚊𝚝𝚘𝚛 :ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ \n┣◆◎ 𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : " + _0x3208f2.length + "\n┣◆◎ 𝙼𝚎𝚖𝚘𝚛𝚢 : " + format(os.totalmem() - os.freemem()) + '/' + format(os.totalmem()) + "\n┣◆ ╰┈┈┈┈┈┈┈┈┈┈┈⊷\n╰┈┈┈✧ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ✧┈┈┈┈⊷ \n";
+  let _0x5aca2f = "sir⚔️";
+  for (const _0x3f1189 in _0x4bac15) {
+    _0x5aca2f += "\n⊷ " + _0x3f1189 + " ⊷••\n╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷ 𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭\n┣◆╭┈┈┈┈┈┈┈┈┈┈┈⊷ ";
+    for (const _0x119c86 of _0x4bac15[_0x3f1189]) {
+      _0x5aca2f += " \n┣◆ " + _0x119c86;
+    }
+    _0x5aca2f += "\n┣◆╰┈┈┈┈┈┈┈┈┈┈┈⊷\n╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊷";
+  }
+  _0x5aca2f += "\n> @ɪᴛ ᴋᴀᴊᴜ ᴛᴍᴅ\n";
+  try {
+    const _0x48a1d6 = _0x69ddd7 || message.from;
+    await _0x2391f4.sendMessage(_0x2a9aec, {
+      'text': _0x263c02 + _0x5aca2f,
+      'contextInfo': {
+        'mentionedJid': [_0x48a1d6],
+        'externalAdReply': {
+          'title': "@𝚰𝚻 𝐊𝚫𝐉𝐔 𝚳𝐃",
+          'body': "𝚊𝚕𝚠𝚊𝚢𝚜•••𝚘𝚗𝚕𝚒𝚗𝚎!",
+          'thumbnailUrl': "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
+          'sourceUrl': "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
+          'mediaType': 0x1,
+          'renderLargerThumbnail': true
+        }
+      }
+    });
+  } catch (_0x4ebd55) {
+    console.error("Menu error: ", _0x4ebd55);
+    _0x1542ab("🥵🥵 Menu error: " + _0x4ebd55);
+  }
+})
