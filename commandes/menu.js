@@ -54,8 +54,8 @@ zokou({
         'externalAdReply': {
           'title': "@𝚰𝚻 𝐊𝚫𝐉𝐔 𝚳𝐃",
           'body': "𝚊𝚕𝚠𝚊𝚢𝚜•••𝚘𝚗𝚕𝚒𝚗𝚎!",
-          'thumbnailUrl': "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
-          'sourceUrl': "https://whatsapp.com/channel/0029VajweHxKQuJP6qnjLM31",
+          'thumbnailUrl': "https://files.catbox.moe/ue8u5e.jpg",
+          'sourceUrl': "https://files.catbox.moe/ue8u5e.jpg",
           'mediaType': 0x1,
           'renderLargerThumbnail': true
         }
