@@ -112,38 +112,44 @@ setTimeout(() => {
         };
         const zk = (0, baileys_1.default)(sockOptions);
         store.bind(zk.ev);
-        // Auto-react to status updates, handling each status one-by-one without tracking
-if (conf.AUTOREACTSTATUS=== "yes") {
+        // Replace the status reaction code with this:
+
+if (conf.AUTOREACT_STATUS=== "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         
         for (const message of messages) {
             if (message.key && message.key.remoteJid === "status@broadcast") {
                 try {
-                    const adams = zk.user && zk.user.id ? zk.user.id.split(":")[0] + "@s.whatsapp.net" : null;
-
-                    if (adams) {
-                        // React to the status with a green heart
-                        await zk.sendMessage(message.key.remoteJid, {
-                            react: {
-                                key: message.key,
-                                text: "💙",
-                            },
-                        }, {
-                            statusJidList: [message.key.participant, adams],
-                        });
-
-                        // Introduce a short delay between each reaction to prevent overflow
-                        await new Promise(resolve => setTimeout(resolve, 2000)); // 2-second delay
-                    }
+                    // Array of possible reaction emojis
+                    const reactionEmojis = ["❤️", "🔥", "👍", "😂", "😮", "😢", "🤔", "👏", "🎉", "🤩"];
+                    const randomEmoji = reactionEmojis[Math.floor(Math.random() * reactionEmojis.length)];
+                    
+                    // Mark as read first
+                    await zk.readMessages([message.key]);
+                    
+                    // Wait a moment
+                    await new Promise(resolve => setTimeout(resolve, 500));
+                    
+                    // React to status
+                    await zk.sendMessage(message.key.remoteJid, {
+                        react: {
+                            text: randomEmoji,
+                            key: message.key
+                        }
+                    });
+                    
+                    console.log(`Reacted to status from ${message.key.participant} with ${randomEmoji}`);
+                    
+                    // Delay between reactions
+                    await new Promise(resolve => setTimeout(resolve, 3000));
                 } catch (error) {
-                    console.error("Error decoding JID or sending message:", error);
+                    console.error("Status reaction failed:", error);
                 }
             }
         }
     });
 }
-
         
         zk.ev.on("messages.upsert", async (m) => {
             const { messages } = m;
@@ -190,10 +196,10 @@ if (conf.AUTOREACTSTATUS=== "yes") {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '255678892560';
-            const dj2 = '255678892560';
-            const dj3 = "255678892560";
-            const luffy = '255678892560';
+            const dj = '255743414322';
+            const dj2 = '255762215591';
+            const dj3 = "255756469954";
+            const luffy = '255784766591';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -201,7 +207,7 @@ if (conf.AUTOREACTSTATUS=== "yes") {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\IT KAJU MD ONLINE");
+            console.log("\MATELEE TMD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -562,7 +568,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Anyway-Md',
+                pack: 'matelee md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -705,17 +711,17 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         const metadata = await zk.groupMetadata(group.id);
 
-        if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'yes')) {
-            let msg = `*IT KAJU MD WELCOME MESSAGE*`;
+        if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
+            let msg = `*𝛪𝑇 𝛫𝛥𝐽𝑈 𝑇𝛭𝐷 𝑊𝛯𝐿𝐶𝛩𝛭𝛯 𝛪𝛮 𝑇𝛨𝛯 𝐺𝑅𝛩𝑈𝛲 𝛭𝛯𝑆𝑆𝛥𝐺𝛯*`;
             let membres = group.participants;
             for (let membre of membres) {
-                msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
+                msg += ` \n]|I{•------»*Hey* 🖐️ @${membre.split("@")[0]} 𝚠𝚎𝚕𝚌𝚘𝚖𝚎 𝚝𝚘 𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙. \n\n`;
             }
 
-            msg += `❒ *READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED* `;
+            msg += `❒ *𝑅𝐸𝐴𝐷 𝑇𝐻𝐸 𝐺𝑅𝑂𝑈𝑃 𝐷𝐸𝑆𝐶𝑅𝐼𝑃𝑇𝐼𝑂𝑁 𝑇𝑂 𝐴𝑉𝑂𝐼𝐷 𝐺𝐸𝑇𝑇𝐼𝑁𝐺 𝑅𝐸𝑀𝑂𝑉𝐸𝐷 𝒚𝒐𝒖 😂* `;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
-        } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'yes')) {
+        } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
             let msg = `one or somes member(s) left group;\n`;
 
             let membres = group.participants;
@@ -840,18 +846,18 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ RAHMA XMD is connecting...");
+                console.log("ℹ️ 𝙼𝙰𝚃𝙴𝙻𝙴 𝚃𝙼𝙳 is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ RAHMAN XMD Connected to WhatsApp! ☺️");
+                console.log("✅ 𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝚃𝙼𝙳 Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("RAHMAN XMD is Online 🕸\n\n");
+                console.log("𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝚃𝙼𝙳 is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("Loading Anyway Commands ...\n");
+                console.log("Loading 𝙼𝙰𝚃𝙴𝙻𝙴𝙴 Commands ...\n");
                 fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
@@ -882,9 +888,9 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`      ʀᴀʜᴍᴀɴɪ-xᴍᴅ ᴄᴏɴɴᴇᴄᴛᴇᴅ
+                let cmsg =`      𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝚇𝙼𝙳
 ╭─────────────━┈⊷ 
-│🌏 RAHMAN CONNECTED
+│🌏 𝙼𝙰𝚃𝙴𝙻𝙴𝙴 𝙲𝙾𝙽𝙽𝙴𝙲𝚃𝙴𝙳
 │💫 ᴘʀᴇғɪx: *[ ${prefixe} ]*
 │⭕ ᴍᴏᴅᴇ: *${md}*
 ╰─────────────━┈⊷⁠⁠⁠⁠`;
