@@ -113,7 +113,7 @@ setTimeout(() => {
         const zk = (0, baileys_1.default)(sockOptions);
         store.bind(zk.ev);
         // Auto-react to status updates, handling each status one-by-one without tracking
-if (conf.ANYWAY_MD === "yes") {
+if (conf.AUTOREACTSTATUS=== "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
         
@@ -201,7 +201,7 @@ if (conf.ANYWAY_MD === "yes") {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tANYWAY MD ONLINE");
+            console.log("\IT KAJU MD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -705,8 +705,8 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         const metadata = await zk.groupMetadata(group.id);
 
-        if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `*ANYWAY MD WELCOME MESSAGE*`;
+        if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'yes')) {
+            let msg = `*IT KAJU MD WELCOME MESSAGE*`;
             let membres = group.participants;
             for (let membre of membres) {
                 msg += ` \n❒ *Hey* 🖐️ @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
@@ -715,7 +715,7 @@ zk.ev.on('group-participants.update', async (group) => {
             msg += `❒ *READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED* `;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
-        } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
+        } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'yes')) {
             let msg = `one or somes member(s) left group;\n`;
 
             let membres = group.participants;
