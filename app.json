@@ -1,20 +1,20 @@
 {
-  "name": "𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃 𝐁𝐎𝐓",
-  "description": "𝚰𝚻 𝐊𝚫𝚴𝐉 is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
+  "name": "𝚰𝚻 D3F4ULT FAMILY 𝐁𝐎𝐓",
+  "description": "𝚰𝚻 D3F4ULT is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://files.catbox.moe/d5s4n1.jpg",
+  "logo": "https://files.catbox.moe/xjav8c.jpg",
   "repository": "https://github.com/Next5x/IT_KANJU_TMD",
   "succes_url": "/",
   "stack": "container",
   "env": {
         "PREFIX": {
       "description": "Choose your bot's prefix",
-      "value": ".",
+      "value": ",",
       "required": true
     },
     "AUTO_READ_STATUS": {
@@ -64,7 +64,7 @@
     },
     "BOT_NAME": {
       "description": "Change this if you don't like my name",
-      "value": "𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃",
+      "value": "𝚰𝚻 D3F4ULT FAMILY",
       "required": true 
     },
     "GROUP_CONTROL": {
@@ -94,12 +94,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "𝚰𝚻 𝐊𝚫𝚴𝐉𝐔 𝚻𝚳𝐃",
+      "value": "𝚰𝚻 D3F4ULT FAMILY",
       "required": true
     },
     "URL": {
       "description": "Change this image and input yours",
-      "value": "https://files.catbox.moe/d5s4n1.jpg",
+      "value": "https://files.catbox.moe/xjav8c.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -109,7 +109,7 @@
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '255693629079')",
-      "value": "255697423061",
+      "value": "255624536088",
       "required": false
     },
     "WARN_COUNT": {
